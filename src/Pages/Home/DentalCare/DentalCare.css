@@ -1,0 +1,42 @@
+.dentalcare  {
+    width:75%;
+    margin:auto;
+    padding: 0 0 200px 0;
+}
+.dentalcare-image img {
+    width:100%;
+    border-radius: 10px;
+}
+.dentalcare-image {
+    width:40%;
+}
+.dentalcare-content {
+    width:50%;
+    text-align: left;
+}
+.dentalcare-content h2 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+.dentalcare-content p {
+    margin:15px 0;
+}
+
+
+@media (max-width:768px){
+    .dentalcare {
+        width:90%;
+    }
+    .dentalcare-image {
+        width:60%;
+        margin-bottom: 30px;
+    }
+    .dentalcare-content {
+        width:100%;
+    }
+}
+@media (max-width:576px){
+    .dentalcare-image {
+        width:100%;
+    }
+}

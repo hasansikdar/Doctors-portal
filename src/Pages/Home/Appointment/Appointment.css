@@ -1,0 +1,25 @@
+.appointment {
+    background:url('../../../assets/images/appointment.png') no-repeat;
+    padding:50px 0 0 0;
+}
+.doctor-image {
+    display:flex;
+    height:100%;
+    justify-content: space-evenly;
+}
+.doctor-image img {
+    margin-top:-100px;
+    margin-bottom: 0;
+    height:500px !important;
+   
+}
+
+
+@media (max-width:768px){
+    .doctor-image{
+        display:none;
+    }
+    .appointment {
+        padding:50px 0;
+    }
+}

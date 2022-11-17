@@ -1,0 +1,36 @@
+.banner {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding:150px 0;
+    width:90%;
+    margin:auto;
+    background: url('../../../assets//images/bg.png') no-repeat;
+    background-size: cover;
+}
+.banner-content  {
+    padding:10px;
+    text-align: left;
+}
+.banner-content p {
+    margin:15px 0;
+}
+.banner-content h1 {
+    font-size:3rem;
+    color:#3A4256;
+}
+.banner-image img {
+    width:100%;
+}
+
+
+@media (max-width:768px){
+    .banner{
+        display: flex;
+        flex-flow: column-reverse !important;
+        padding:50px 0;
+    }
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+}

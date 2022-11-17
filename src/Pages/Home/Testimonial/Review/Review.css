@@ -1,0 +1,24 @@
+.testimonial .grid {
+    gap:30px;
+}
+.review {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    padding:20px;
+}
+
+.review-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #19D3AE;
+    padding: 2px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.review-profile.flex {
+    justify-content: start;
+    margin-top: 40px;
+}

@@ -1,0 +1,33 @@
+.footer {
+    background:url('../../../assets/images/footer.png') no-repeat;
+    background-size:cover;
+    padding:50px 0;
+}
+.footer-links {
+    margin-bottom:100px;
+}
+.footer-links ul {
+    margin:20px 0;
+}
+.footer-links a {
+    color:#3A4256;
+    margin:8px 0;
+    display:table
+}
+.footer-links h3 {
+    color:#939393;
+}
+.footer-links.flex {
+    align-items:start;
+    flex-flow: row;
+}
+
+
+@media(max-width:576px){
+    .footer-links.flex{
+        flex-flow:column;
+    }
+    .footer-links{
+        margin-bottom:50px;
+    }
+}

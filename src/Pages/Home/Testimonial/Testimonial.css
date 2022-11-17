@@ -1,0 +1,9 @@
+.testimonial {
+    padding:50px 0;
+}
+.qutetion img {
+    width:150px;
+}
+.testimonial .flex {
+    flex-flow: row;
+}

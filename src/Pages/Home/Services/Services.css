@@ -1,0 +1,19 @@
+.services {
+    padding:100px 0;
+}
+.service {
+    padding:50px 10px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+.service img {
+    margin-bottom: 20px;
+}
+.service h3 {
+    margin:10px 0;
+}
+.services h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
